@@ -11,8 +11,7 @@ dependencies = [
     "fastapi>=0.115",
     "uvicorn>=0.34",
     "aiosqlite>=0.20",
-    "httpx>=0.28",
-    "cassandra-mcp-auth @ git+https://github.com/Cassandras-Edge/cassandra-auth.git@main#subdirectory=python",
+    "pydantic>=2.0",
 ]
 
 [project.scripts]
